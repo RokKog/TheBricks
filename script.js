@@ -18,6 +18,7 @@ function drawIt() {
         $("#tocke").html(tocke);
         sekunde = 0;
         izpisTimer = "00:00";
+        
     }
 
     function circle(x, y, r) {
@@ -25,6 +26,7 @@ function drawIt() {
         ctx.arc(x, y, r, 0, Math.PI * 2, true);
         ctx.closePath();
         ctx.fill();
+        ctx.fillStyle ="#ffffff";
     }
 
     function rect(x, y, w, h) {
@@ -32,6 +34,7 @@ function drawIt() {
         ctx.rect(x, y, w, h);
         ctx.closePath();
         ctx.fill();
+
     }
 
     function clear() {
