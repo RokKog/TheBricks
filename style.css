@@ -1,3 +1,7 @@
+@font-face {
+  font-family: StarJedi;
+  src: url(font/Starjedi.ttf);
+}
 #canvas {
     border: 4px solid white;
 }
@@ -13,6 +17,19 @@
     }
   #naslov{
     position: absolute;
-    margin-top: -800px;
+    margin-top: -850px;
     color: white;
+  }
+  .meni1{
+    position: absolute;
+    color: white;
+    margin-left: 1200px;
+    font-size: 50px;
+    font-family: StarJedi;
+  }
+  #tocke{
+    background-color: white;
+  }
+  #cas{
+    background-color: white;
   }
